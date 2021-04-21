@@ -259,11 +259,11 @@ currenttime = datetime.datetime.now().strftime("%Y_%m_%d_%H-%M")
 username = input('Please enter your username: ')
 password = getpass.getpass('Please enter your password: ')
 #LAB
-ftp_username = 'rharms'
-ftp_password = 'Change01'
+ftp_username = ''
+ftp_password = ''
 #PROD
-# ftp_username = 'bb_beheer'
-# ftp_password = '827cb0eEhrtS'
+# ftp_username = ''
+# ftp_password = ''
 
 #ftp_username = init.get('ftp', 'ftp_user')
 #ftp_password = init.get('ftp', 'ftp_password')
